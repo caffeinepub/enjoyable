@@ -28,7 +28,7 @@ const CATEGORY_COLORS: Record<string, string> = {
 };
 
 // URLs that are known to block embedding -- open directly in new tab
-const OPEN_IN_TAB_DOMAINS = ["orteil.dashnet.org"];
+const OPEN_IN_TAB_DOMAINS: string[] = [];
 
 function isBlockedEmbed(url: string): boolean {
   try {
